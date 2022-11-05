@@ -19,7 +19,7 @@ y
 //If [y] write, immediately below, only the name of mesh file with 
 //extension *.msh:
 
-HermelineMeshModTriang_96_96.msh
+Benchmark23_3_FINA36.msh
 
 //OBS.: This file must be puted into folder together with *.m files 
 //or in a folder whose path will be declared immediately below:
@@ -33,7 +33,7 @@ C:\Users\flc59\Documents\GitHub\Malhas2
 //IMPORTANT: gmsh.exe must be puted in this folder together with
 //the *.m files. Otherwise it does not work.
 
-C:\Users\flc59\Documents\GitHub\codes_singlephase_2022
+C:\Users\flc59\Documents\codes_singlephase_2022
 
 //write the name of BASE geometry file WITHOUT extension *.geo.
 //This file can serve to several simulations. Each one may have 
@@ -91,13 +91,13 @@ y
 //and two geometric tag)
 
 1
-33 1 1 3
+3 1 1 3
 
 //Direction "y" (number of statments, number of points, growth rate 
 //and two geometric tag)
 
 1
-33 1 2 4
+3 1 2 4
 
 //IMPORTANT: In case where there are two or more properties to long
 //domain, the user must take care during attribution of parameters 
@@ -369,8 +369,9 @@ porosity.dat
 //group seted into "*.geo" file will be associated with the 1st code 
 //declared below and so on.
 
-1
-101 1
+2
+101 2
+102 0
 
 //--------------------------------------------------------------------
 //Tratment of boundary points
@@ -386,8 +387,8 @@ porosity.dat
 //group reported to points will be associated with 1st code written
 //below.
 
-1
-101 
+2
+101 102 
 
 //--------------------------------------------------------------------
 //----------------------- Convergence criteria -----------------------
